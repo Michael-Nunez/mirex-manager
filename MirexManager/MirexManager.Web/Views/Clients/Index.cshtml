@@ -1,0 +1,41 @@
+﻿@model List<MirexManager.Domain.Clients.Client>
+@{
+    ViewData["Title"] = "Clientes";
+}
+
+
+<div class="pt-5">
+<h1>Listado de clientes</h1>
+
+@if (Model is null)
+{
+    <p>Cargando...</p>
+}
+else if (!Model.Any())
+{
+    <a 
+        class="btn btn-primary"
+        href="/Clients/Create"
+    >
+        Nuevo cliente
+    </a>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var client in Model)
+            {
+                <tr>
+                    <td>@client.Name</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+</div>

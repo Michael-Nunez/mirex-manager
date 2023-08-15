@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{14F0743C-54D2-4AC8-9B06-3846076FD4AC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{4C5CFBBD-EF38-449D-A97F-31FBAB8CF8FE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MirexManager.Domain", "MirexManager.Domain\MirexManager.Domain.csproj", "{34BC9C53-6327-4CEB-B038-B7D047AF7753}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MirexManager.Infrastructure", "MirexManager.Infrastructure\MirexManager.Infrastructure.csproj", "{F1AB7CA0-9AF8-467A-BE3B-CA3DF26DABBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MirexManager.Web", "MirexManager.Web\MirexManager.Web.csproj", "{4C196F9A-6875-4E4B-89B7-809C4275198A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MirexManager.Application", "MirexManager.Application\MirexManager.Application.csproj", "{DD761336-C9B7-4745-9CE8-03E7739B3B14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34BC9C53-6327-4CEB-B038-B7D047AF7753}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34BC9C53-6327-4CEB-B038-B7D047AF7753}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34BC9C53-6327-4CEB-B038-B7D047AF7753}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34BC9C53-6327-4CEB-B038-B7D047AF7753}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1AB7CA0-9AF8-467A-BE3B-CA3DF26DABBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1AB7CA0-9AF8-467A-BE3B-CA3DF26DABBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1AB7CA0-9AF8-467A-BE3B-CA3DF26DABBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1AB7CA0-9AF8-467A-BE3B-CA3DF26DABBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C196F9A-6875-4E4B-89B7-809C4275198A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C196F9A-6875-4E4B-89B7-809C4275198A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C196F9A-6875-4E4B-89B7-809C4275198A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C196F9A-6875-4E4B-89B7-809C4275198A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD761336-C9B7-4745-9CE8-03E7739B3B14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD761336-C9B7-4745-9CE8-03E7739B3B14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD761336-C9B7-4745-9CE8-03E7739B3B14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD761336-C9B7-4745-9CE8-03E7739B3B14}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{34BC9C53-6327-4CEB-B038-B7D047AF7753} = {14F0743C-54D2-4AC8-9B06-3846076FD4AC}
+		{F1AB7CA0-9AF8-467A-BE3B-CA3DF26DABBF} = {14F0743C-54D2-4AC8-9B06-3846076FD4AC}
+		{4C196F9A-6875-4E4B-89B7-809C4275198A} = {14F0743C-54D2-4AC8-9B06-3846076FD4AC}
+		{DD761336-C9B7-4745-9CE8-03E7739B3B14} = {14F0743C-54D2-4AC8-9B06-3846076FD4AC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2AC77593-2EEE-4625-BEC7-35188D4B7FC1}
+	EndGlobalSection
+EndGlobal

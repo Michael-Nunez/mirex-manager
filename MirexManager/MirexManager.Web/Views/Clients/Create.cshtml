@@ -1,0 +1,30 @@
+﻿@model MirexManager.Domain.Clients.Client
+
+<div class="pt-5 text-center">
+
+    <h1>Nuevo cliente</h1>
+
+    @using (Html.BeginForm("Create", "Clients", FormMethod.Post))
+    {
+        <div class="form-outline mb-4">
+            <input type="tel" id="name" class="form-control" name="@Model.Name" />
+            <label class="form-label">Name</label>
+        </div>
+
+        <div class="form-outline mb-4">
+            <input type="email" id="email" class="form-control" name="@Model.Email" />
+            <label class="form-label" for="email">Email address</label>
+        </div>
+
+        <div class="form-outline mb-4">
+            <input type="tel" id="telefono" class="form-control" name="@Model.Phone" />
+            <label class="form-label" for="telefono">Telefono</label>
+        </div>
+
+        <div class="form-outline">
+            <textarea class="form-control" id="direccion" rows="4" name="@Model.Address"></textarea>
+            <label class="form-label" for="direccion">Message</label>
+        </div>
+        <button type="submit" class="btn btn-primary mt-4 mb-5">Guardar cambios</button>
+    }
+</div>
