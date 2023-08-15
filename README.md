@@ -15,13 +15,11 @@ Mixer Manager es un sistema CRM moderno que permite a las empresas gestionar y e
 ## Patrones de diseño
 
 - Repostory
-- 
 
 ## Requisitos
 
 - .NET SDK 6.0
 - Base de datos SQL Server
-- [Otras dependencias o herramientas]
 
 ## Instrucciones para la Ejecución
 
@@ -40,7 +38,3 @@ La documentación completa del proyecto, incluyendo detalles de arquitectura, di
 
 ## Licencia
 Este proyecto está licenciado bajo MIT. Consulta el archivo LICENSE para más detalles.
-
-## Contacto
-Para cualquier consulta o feedback, por favor contacta a [Tu Nombre] a [tu.email@example.com].
-
