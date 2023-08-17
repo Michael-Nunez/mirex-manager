@@ -31,10 +31,5 @@ Mixer Manager es un sistema CRM moderno que permite a las empresas gestionar y e
    dotnet ef database update
    dotnet run
 
-# La aplicación ahora debería estar ejecutándose en http://localhost:5244.
-
-## Documentación
-La documentación completa del proyecto, incluyendo detalles de arquitectura, diseño de la base de datos y descripciones de las principales características, puede encontrarse en el directorio /docs.
-
 ## Licencia
 Este proyecto está licenciado bajo MIT. Consulta el archivo LICENSE para más detalles.
